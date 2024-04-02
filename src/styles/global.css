@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* linear-gradient(
+    79deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(63, 154, 209, 1) 36%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+}
+
+@font-face {
+  font-family: Inter;
+  src: font-url("https://fonts.googleapis.com/css2?family=Inter");
+}
