@@ -4,7 +4,7 @@ const apiClient = ({ method, url, data }) => {
   return new Promise((resolve, reject) => {
     function createApi() {
       const api = axios.create({
-        baseURL: "http://localhost:3000",
+        baseURL: "https://taskmanagement-fvb9.onrender.com/",
         headers: {
           "Content-Type": "application/json",
         },
